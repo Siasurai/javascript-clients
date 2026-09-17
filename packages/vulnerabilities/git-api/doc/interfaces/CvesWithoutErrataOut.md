@@ -1,42 +1,25 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CvesWithoutErrataOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CvesWithoutErrataOut
 
 # Interface: CvesWithoutErrataOut
 
-**`Export`**
+Defined in: [api.ts:436](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L436)
+
+## Export
 
 CvesWithoutErrataOut
-
-## Table of contents
-
-### Properties
-
-- [meta](CvesWithoutErrataOut.md#meta)
-- [updated](CvesWithoutErrataOut.md#updated)
 
 ## Properties
 
-### meta
+### cves\_without\_errata
 
-• **meta**: [`MetaPermissions`](MetaPermissions.md)
+> **cves\_without\_errata**: [`CvesWithoutErrataOutCvesWithoutErrata`](CvesWithoutErrataOutCvesWithoutErrata.md)
 
-**`Memberof`**
+Defined in: [api.ts:442](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L442)
 
-CvesWithoutErrataOut
-
-#### Defined in
-
-[api.ts:448](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L448)
-
-___
-
-### updated
-
-• **updated**: [`CvesWithoutErrataOutUpdated`](CvesWithoutErrataOutUpdated.md)
-
-**`Memberof`**
+#### Memberof
 
 CvesWithoutErrataOut
-
-#### Defined in
-
-[api.ts:442](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L442)

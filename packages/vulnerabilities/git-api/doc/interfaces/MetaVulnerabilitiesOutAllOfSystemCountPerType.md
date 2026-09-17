@@ -1,48 +1,57 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaVulnerabilitiesOutAllOfSystemCountPerType
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaVulnerabilitiesOutAllOfSystemCountPerType
 
 # Interface: MetaVulnerabilitiesOutAllOfSystemCountPerType
 
+Defined in: [api.ts:2183](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2183)
+
 Number of systems managed by vulnerability application, grouped by host type.
 
-**`Export`**
+## Export
 
 MetaVulnerabilitiesOutAllOfSystemCountPerType
-
-## Table of contents
-
-### Properties
-
-- [edge](MetaVulnerabilitiesOutAllOfSystemCountPerType.md#edge)
-- [rpmdnf](MetaVulnerabilitiesOutAllOfSystemCountPerType.md#rpmdnf)
 
 ## Properties
 
-### edge
+### edge?
 
-• `Optional` **edge**: ``null`` \| `number`
+> `optional` **edge?**: `number` \| `null`
 
-Number of immutable systems.
+Defined in: [api.ts:2201](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2201)
 
-**`Memberof`**
+Number of image-mode systems. (Deprecated)
+
+#### Memberof
 
 MetaVulnerabilitiesOutAllOfSystemCountPerType
 
-#### Defined in
+***
 
-[api.ts:2182](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2182)
+### image?
 
-___
+> `optional` **image?**: `number` \| `null`
 
-### rpmdnf
+Defined in: [api.ts:2195](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2195)
 
-• `Optional` **rpmdnf**: `number`
+Number of image-mode systems.
+
+#### Memberof
+
+MetaVulnerabilitiesOutAllOfSystemCountPerType
+
+***
+
+### rpmdnf?
+
+> `optional` **rpmdnf?**: `number`
+
+Defined in: [api.ts:2189](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2189)
 
 Number of conventional systems.
 
-**`Memberof`**
+#### Memberof
 
 MetaVulnerabilitiesOutAllOfSystemCountPerType
-
-#### Defined in
-
-[api.ts:2176](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2176)

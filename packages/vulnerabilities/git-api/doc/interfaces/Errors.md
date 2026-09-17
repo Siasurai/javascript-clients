@@ -1,27 +1,25 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / Errors
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / Errors
 
 # Interface: Errors
 
-**`Export`**
+Defined in: [api.ts:735](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L735)
+
+## Export
 
 Errors
-
-## Table of contents
-
-### Properties
-
-- [errors](Errors.md#errors)
 
 ## Properties
 
 ### errors
 
-• **errors**: [`ErrorsErrors`](ErrorsErrors.md)[]
+> **errors**: [`ErrorsErrors`](ErrorsErrors.md)[]
 
-**`Memberof`**
+Defined in: [api.ts:741](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L741)
+
+#### Memberof
 
 Errors
-
-#### Defined in
-
-[api.ts:728](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L728)
