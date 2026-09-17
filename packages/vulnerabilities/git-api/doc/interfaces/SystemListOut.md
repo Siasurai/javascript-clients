@@ -1,57 +1,49 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / SystemListOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / SystemListOut
 
 # Interface: SystemListOut
 
-**`Export`**
+Defined in: [api.ts:2663](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2663)
+
+## Export
 
 SystemListOut
-
-## Table of contents
-
-### Properties
-
-- [data](SystemListOut.md#data)
-- [links](SystemListOut.md#links)
-- [meta](SystemListOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: `string` \| `object`[]
+> **data**: `string` \| `object`[]
 
-**`Memberof`**
+Defined in: [api.ts:2669](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2669)
+
+#### Memberof
 
 SystemListOut
 
-#### Defined in
-
-[api.ts:2669](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2669)
-
-___
+***
 
 ### links
 
-• **links**: [`Links`](Links.md)
+> **links**: [`Links`](Links.md)
 
-**`Memberof`**
+Defined in: [api.ts:2675](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2675)
+
+#### Memberof
 
 SystemListOut
 
-#### Defined in
-
-[api.ts:2675](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2675)
-
-___
+***
 
 ### meta
 
-• **meta**: [`MetaSystems`](MetaSystems.md)
+> **meta**: [`MetaSystems`](MetaSystems.md)
 
-**`Memberof`**
+Defined in: [api.ts:2681](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2681)
+
+#### Memberof
 
 SystemListOut
-
-#### Defined in
-
-[api.ts:2681](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2681)

@@ -1,44 +1,39 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / StatusListOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / StatusListOut
 
 # Interface: StatusListOut
 
-**`Export`**
+Defined in: [api.ts:2334](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2334)
+
+## Export
 
 StatusListOut
-
-## Table of contents
-
-### Properties
-
-- [data](StatusListOut.md#data)
-- [meta](StatusListOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: [`StatusListOutData`](StatusListOutData.md)[]
+> **data**: [`StatusListOutData`](StatusListOutData.md)[]
+
+Defined in: [api.ts:2340](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2340)
 
 List of available status/status_id pairs.
 
-**`Memberof`**
+#### Memberof
 
 StatusListOut
 
-#### Defined in
-
-[api.ts:2400](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2400)
-
-___
+***
 
 ### meta
 
-• **meta**: [`StatusListOutMeta`](StatusListOutMeta.md)
+> **meta**: [`StatusListOutMeta`](StatusListOutMeta.md)
 
-**`Memberof`**
+Defined in: [api.ts:2346](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2346)
+
+#### Memberof
 
 StatusListOut
-
-#### Defined in
-
-[api.ts:2406](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2406)

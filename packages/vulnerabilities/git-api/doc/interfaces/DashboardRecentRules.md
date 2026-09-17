@@ -1,150 +1,127 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / DashboardRecentRules
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / DashboardRecentRules
 
 # Interface: DashboardRecentRules
 
+Defined in: [api.ts:680](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L680)
+
 Security rule.
 
-**`Export`**
+## Export
 
 DashboardRecentRules
-
-## Table of contents
-
-### Properties
-
-- [associated\_cves](DashboardRecentRules.md#associated_cves)
-- [description](DashboardRecentRules.md#description)
-- [id](DashboardRecentRules.md#id)
-- [name](DashboardRecentRules.md#name)
-- [node\_id](DashboardRecentRules.md#node_id)
-- [public\_date](DashboardRecentRules.md#public_date)
-- [severity](DashboardRecentRules.md#severity)
-- [systems\_affected](DashboardRecentRules.md#systems_affected)
 
 ## Properties
 
-### associated\_cves
+### associated\_cves?
 
-• `Optional` **associated\_cves**: `string`[]
+> `optional` **associated\_cves?**: `string`[]
+
+Defined in: [api.ts:686](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L686)
 
 List of CVEs associated with the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:673](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L673)
+### description?
 
-___
+> `optional` **description?**: `string`
 
-### description
-
-• `Optional` **description**: `string`
+Defined in: [api.ts:692](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L692)
 
 Description of the issue related with the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:679](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L679)
+### id?
 
-___
+> `optional` **id?**: `string`
 
-### id
-
-• `Optional` **id**: `string`
+Defined in: [api.ts:698](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L698)
 
 ID of the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:685](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L685)
+### name?
 
-___
+> `optional` **name?**: `string`
 
-### name
-
-• `Optional` **name**: `string`
+Defined in: [api.ts:704](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L704)
 
 Name of the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:691](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L691)
+### node\_id?
 
-___
+> `optional` **node\_id?**: `number` \| `null`
 
-### node\_id
-
-• `Optional` **node\_id**: ``null`` \| `number`
+Defined in: [api.ts:710](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L710)
 
 Node id of access.redhat.com/node/_* article.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:697](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L697)
+### public\_date?
 
-___
+> `optional` **public\_date?**: `string` \| `null`
 
-### public\_date
-
-• `Optional` **public\_date**: ``null`` \| `string`
+Defined in: [api.ts:716](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L716)
 
 String representation of ISO-8601 formatted date of release of the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:703](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L703)
+### severity?
 
-___
+> `optional` **severity?**: `number`
 
-### severity
-
-• `Optional` **severity**: `number`
+Defined in: [api.ts:722](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L722)
 
 Number representation of the security rule severity.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
 
-#### Defined in
+***
 
-[api.ts:709](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L709)
+### systems\_affected?
 
-___
+> `optional` **systems\_affected?**: `number`
 
-### systems\_affected
-
-• `Optional` **systems\_affected**: `number`
+Defined in: [api.ts:728](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L728)
 
 Number of systems triggering the security rule.
 
-**`Memberof`**
+#### Memberof
 
 DashboardRecentRules
-
-#### Defined in
-
-[api.ts:715](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L715)

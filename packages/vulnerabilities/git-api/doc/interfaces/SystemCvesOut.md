@@ -1,57 +1,49 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / SystemCvesOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / SystemCvesOut
 
 # Interface: SystemCvesOut
 
-**`Export`**
+Defined in: [api.ts:2492](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2492)
+
+## Export
 
 SystemCvesOut
-
-## Table of contents
-
-### Properties
-
-- [data](SystemCvesOut.md#data)
-- [links](SystemCvesOut.md#links)
-- [meta](SystemCvesOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: `string` \| `object`[]
+> **data**: `string` \| `object`[]
 
-**`Memberof`**
+Defined in: [api.ts:2498](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2498)
+
+#### Memberof
 
 SystemCvesOut
 
-#### Defined in
-
-[api.ts:2514](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2514)
-
-___
+***
 
 ### links
 
-• **links**: [`Links`](Links.md)
+> **links**: [`Links`](Links.md)
 
-**`Memberof`**
+Defined in: [api.ts:2504](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2504)
+
+#### Memberof
 
 SystemCvesOut
 
-#### Defined in
-
-[api.ts:2520](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2520)
-
-___
+***
 
 ### meta
 
-• **meta**: [`MetaCves`](MetaCves.md)
+> **meta**: [`MetaCves`](MetaCves.md)
 
-**`Memberof`**
+Defined in: [api.ts:2510](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2510)
+
+#### Memberof
 
 SystemCvesOut
-
-#### Defined in
-
-[api.ts:2526](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2526)

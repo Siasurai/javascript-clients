@@ -1,27 +1,25 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / PlaybookTemplate
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / PlaybookTemplate
 
 # Interface: PlaybookTemplate
 
-**`Export`**
+Defined in: [api.ts:2253](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2253)
+
+## Export
 
 PlaybookTemplate
-
-## Table of contents
-
-### Properties
-
-- [data](PlaybookTemplate.md#data)
 
 ## Properties
 
-### data
+### data?
 
-• `Optional` **data**: [`PlaybookTemplateData`](PlaybookTemplateData.md)[]
+> `optional` **data?**: [`PlaybookTemplateData`](PlaybookTemplateData.md)[]
 
-**`Memberof`**
+Defined in: [api.ts:2259](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2259)
+
+#### Memberof
 
 PlaybookTemplate
-
-#### Defined in
-
-[api.ts:2319](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2319)

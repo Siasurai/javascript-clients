@@ -1,29 +1,27 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaPermissions
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaPermissions
 
 # Interface: MetaPermissions
 
-**`Export`**
+Defined in: [api.ts:1830](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1830)
+
+## Export
 
 MetaPermissions
-
-## Table of contents
-
-### Properties
-
-- [permissions](MetaPermissions.md#permissions)
 
 ## Properties
 
 ### permissions
 
-• **permissions**: `string`[]
+> **permissions**: `string`[]
+
+Defined in: [api.ts:1836](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1836)
 
 Fetched permissions from RBAC for given user
 
-**`Memberof`**
+#### Memberof
 
 MetaPermissions
-
-#### Defined in
-
-[api.ts:1823](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1823)

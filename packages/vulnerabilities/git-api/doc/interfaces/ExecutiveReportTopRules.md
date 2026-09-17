@@ -1,114 +1,97 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / ExecutiveReportTopRules
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / ExecutiveReportTopRules
 
 # Interface: ExecutiveReportTopRules
 
-**`Export`**
+Defined in: [api.ts:1046](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1046)
+
+## Export
 
 ExecutiveReportTopRules
-
-## Table of contents
-
-### Properties
-
-- [associated\_cves](ExecutiveReportTopRules.md#associated_cves)
-- [description](ExecutiveReportTopRules.md#description)
-- [name](ExecutiveReportTopRules.md#name)
-- [rule\_id](ExecutiveReportTopRules.md#rule_id)
-- [severity](ExecutiveReportTopRules.md#severity)
-- [systems\_affected](ExecutiveReportTopRules.md#systems_affected)
 
 ## Properties
 
 ### associated\_cves
 
-• **associated\_cves**: `string`[]
+> **associated\_cves**: `string`[]
+
+Defined in: [api.ts:1052](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1052)
 
 All CVEs associated with the rule
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
 
-#### Defined in
-
-[api.ts:1039](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1039)
-
-___
+***
 
 ### description
 
-• **description**: `string`
+> **description**: `string`
+
+Defined in: [api.ts:1058](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1058)
 
 Brief description of the issue.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
 
-#### Defined in
-
-[api.ts:1045](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1045)
-
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
+
+Defined in: [api.ts:1070](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1070)
 
 Name of the security rule.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
 
-#### Defined in
-
-[api.ts:1057](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1057)
-
-___
+***
 
 ### rule\_id
 
-• **rule\_id**: `string`
+> **rule\_id**: `string`
+
+Defined in: [api.ts:1064](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1064)
 
 ID of associated security rule.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
 
-#### Defined in
-
-[api.ts:1051](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1051)
-
-___
+***
 
 ### severity
 
-• **severity**: `number`
+> **severity**: `number`
+
+Defined in: [api.ts:1076](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1076)
 
 Severity of the security rule.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
 
-#### Defined in
-
-[api.ts:1063](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1063)
-
-___
+***
 
 ### systems\_affected
 
-• **systems\_affected**: `number`
+> **systems\_affected**: `number`
+
+Defined in: [api.ts:1082](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1082)
 
 Number of systems affected by the rule.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopRules
-
-#### Defined in
-
-[api.ts:1069](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1069)

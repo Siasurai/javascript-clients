@@ -1,168 +1,139 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / ExecutiveReport
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / ExecutiveReport
 
 # Interface: ExecutiveReport
 
-**`Export`**
+Defined in: [api.ts:767](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L767)
+
+## Export
 
 ExecutiveReport
-
-## Table of contents
-
-### Properties
-
-- [cves\_by\_severity](ExecutiveReport.md#cves_by_severity)
-- [cves\_total](ExecutiveReport.md#cves_total)
-- [meta](ExecutiveReport.md#meta)
-- [recent\_cves](ExecutiveReport.md#recent_cves)
-- [rules\_by\_severity](ExecutiveReport.md#rules_by_severity)
-- [rules\_total](ExecutiveReport.md#rules_total)
-- [system\_count](ExecutiveReport.md#system_count)
-- [system\_count\_per\_type](ExecutiveReport.md#system_count_per_type)
-- [top\_cves](ExecutiveReport.md#top_cves)
-- [top\_rules](ExecutiveReport.md#top_rules)
 
 ## Properties
 
 ### cves\_by\_severity
 
-• **cves\_by\_severity**: [`ExecutiveReportCvesBySeverity`](ExecutiveReportCvesBySeverity.md)
+> **cves\_by\_severity**: [`ExecutiveReportCvesBySeverity`](ExecutiveReportCvesBySeverity.md)
 
-**`Memberof`**
+Defined in: [api.ts:791](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L791)
+
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
-
-[api.ts:778](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L778)
-
-___
+***
 
 ### cves\_total
 
-• **cves\_total**: `number`
+> **cves\_total**: `number`
+
+Defined in: [api.ts:785](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L785)
 
 Number of unique CVEs discovered on the managed systems.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
+***
 
-[api.ts:772](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L772)
+### meta?
 
-___
+> `optional` **meta?**: [`MetaPermissions`](MetaPermissions.md)
 
-### meta
+Defined in: [api.ts:827](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L827)
 
-• `Optional` **meta**: [`MetaPermissions`](MetaPermissions.md)
-
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
-
-[api.ts:814](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L814)
-
-___
+***
 
 ### recent\_cves
 
-• **recent\_cves**: [`ExecutiveReportRecentCves`](ExecutiveReportRecentCves.md)
+> **recent\_cves**: [`ExecutiveReportRecentCves`](ExecutiveReportRecentCves.md)
 
-**`Memberof`**
+Defined in: [api.ts:797](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L797)
+
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
-
-[api.ts:784](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L784)
-
-___
+***
 
 ### rules\_by\_severity
 
-• **rules\_by\_severity**: [`ExecutiveReportRulesBySeverity`](ExecutiveReportRulesBySeverity.md)
+> **rules\_by\_severity**: [`ExecutiveReportRulesBySeverity`](ExecutiveReportRulesBySeverity.md)
 
-**`Memberof`**
+Defined in: [api.ts:803](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L803)
+
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
-
-[api.ts:790](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L790)
-
-___
+***
 
 ### rules\_total
 
-• **rules\_total**: `number`
+> **rules\_total**: `number`
+
+Defined in: [api.ts:809](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L809)
 
 Number of unique CVEs discovered on the managed systems.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
-
-[api.ts:796](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L796)
-
-___
+***
 
 ### system\_count
 
-• **system\_count**: `number`
+> **system\_count**: `number`
+
+Defined in: [api.ts:779](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L779)
 
 Total number of systems managed by vulnerability application.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
+***
 
-[api.ts:766](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L766)
+### system\_count\_per\_type?
 
-___
+> `optional` **system\_count\_per\_type?**: [`MetaVulnerabilitiesOutAllOfSystemCountPerType`](MetaVulnerabilitiesOutAllOfSystemCountPerType.md)
 
-### system\_count\_per\_type
+Defined in: [api.ts:773](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L773)
 
-• `Optional` **system\_count\_per\_type**: [`MetaVulnerabilitiesOutAllOfSystemCountPerType`](MetaVulnerabilitiesOutAllOfSystemCountPerType.md)
-
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
+***
 
-[api.ts:760](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L760)
+### top\_cves?
 
-___
+> `optional` **top\_cves?**: [`ExecutiveReportTopCves`](ExecutiveReportTopCves.md)[]
 
-### top\_cves
+Defined in: [api.ts:815](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L815)
 
-• `Optional` **top\_cves**: [`ExecutiveReportTopCves`](ExecutiveReportTopCves.md)[]
-
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
 
-#### Defined in
+***
 
-[api.ts:802](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L802)
+### top\_rules?
 
-___
+> `optional` **top\_rules?**: [`ExecutiveReportTopRules`](ExecutiveReportTopRules.md)[]
 
-### top\_rules
+Defined in: [api.ts:821](https://github.com/Siasurai/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L821)
 
-• `Optional` **top\_rules**: [`ExecutiveReportTopRules`](ExecutiveReportTopRules.md)[]
-
-**`Memberof`**
+#### Memberof
 
 ExecutiveReport
-
-#### Defined in
-
-[api.ts:808](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L808)
